@@ -1,2 +1,2 @@
-# democratic-peace-replication
-Replicating the well-known Democratic Peace theory
+# Democratic Peace Replication
+Replicating the well-known Democratic Peace theory.
