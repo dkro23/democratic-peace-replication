@@ -130,6 +130,7 @@ summary(m1)
 ### With Controls
 m2 <- felm(gmlmidonset ~ 
              joint_democracy + joint_autocracy + joint_anocracy +
+             I(conttype == 1) + capdist +
              poly(gmlmidspell,3) +
              cinc_share1 + cinc_avg + 
              cowmaj1 + cowmaj2 +
@@ -142,6 +143,7 @@ summary(m2)
 ### Just Display or Use of Force and War
 m3 <- felm(init345 ~ 
              joint_democracy + joint_autocracy + joint_anocracy +
+             I(conttype == 1) + capdist +
              poly(gmlmidspell,3) +
              cinc_share1 + cinc_avg + 
              cowmaj1 + cowmaj2 +
